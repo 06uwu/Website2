@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2, p, img{
+    margin: 20px 0 20px 0;
+}
+
+img {
+    max-width: 100%;
+}
