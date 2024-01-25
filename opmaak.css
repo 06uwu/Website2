@@ -1,22 +1,177 @@
-* {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-figure {
+body {
+    background-image: url('fotos/ruitbloemblausw.png');
+    background-repeat: repeat;
+    background-size: 400px 700px;   
+}
+
+.bundels-pagina  {
+    background-image: url('fotos/bloemruit2.png');
+    background-repeat: repeat;
+    background-size: 400px 700px;
+}
+
+.categorieen-pagina {
+    background-image: url('fotos/ruitblanc.png');
+    background-repeat: repeat;
+    background-size: 400px 700px;
+}
+
+.overons-pagina {
+    background-image: url(fotos/bubbelsruit.png);
+    background-repeat: repeat;
+    background-size: 400px 700px;   
+}
+
+
+header {
+    background-image: url('fotos/bloem3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+
+.navbar {
+    background-color: #F65487;
+    z-index: 1000;
+    position: relative;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-h2, p, img{
-    margin: 20px 0 20px 0;
-}
-
-img {
+.bundel-foto {
+    width: 80%;
     max-width: 100%;
+    height: auto;
+    margin: 5% auto;
+    border: 3px solid #CBEBF1;
+}
+ 
+.home-foto {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    margin: 5% auto;
+    border: 3px solid #E25482;
+}
+
+.foto-cat {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 75px;
+    border: 3px solid #CBEBF1;
+}
+
+.bundels {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bundels h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bundel-foto {
+    max-width: 50%;
+    height: auto;
+    margin-right: 40px;
+}
+
+footer.bottom-banner {
+    height: 50px;
+    background-color: #f65487;
+}
+
+.uitleg,
+.prijs,
+.intro {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+    padding: 12px;
+    margin: 8px 25px;
+}
+
+h1 {
+    background-color: #E25482;
+    color: #ffffff;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+h2 {
+    background-color: #B21E4E;
+    color: #ffffff;
+    padding: 8px;
+    margin: 8px 50px;
+}
+
+h3 {
+    background-color: #E25482;
+    color: #ffffff;
+    padding: 8px;
+    margin: 8px 110PX;
+}
+
+h2,
+p {
+    font-family: 'Times New Roman', Times, serif
+}
+
+p {
+    background-color: #ffd1df;
+    color: #000000;
+    padding: 10px;
+    margin: 8px 50px;
 }
